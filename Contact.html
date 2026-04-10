@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -26,14 +27,78 @@
         </nav>  
 
     </header>
-    <main>
-        <h1>Contactez nous</h1>
-    </main>
+    <main class="contact-page">
+    <section class="contact-container">
+        <div class="contact-info">
+            <h2>Restons en contact</h2>
+            <p>Une question sur un projet de design, une base de données ou une opportunité de collaboration ? Envoyez-moi un message !</p>
+            
+            <div class="info-details">
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <h4>Localisation</h4>
+                        <p>Lubumbashi, RDC</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📧</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>votre.nom@exemple.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📱</span>
+                    <div>
+                        <h4>Téléphone / WhatsApp</h4>
+                        <p>+243 000 000 000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-container">
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Adresse Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <select id="subject" name="subject">
+                        <option value="design">Design UI/UX (Figma)</option>
+                        <option value="tech">Maintenance & Hardware</option>
+                        <option value="database">Base de données / SQL</option>
+                        <option value="autre">Autre demande</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Comment puis-je vous aider ?" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+</main>
     <footer>
+       <div>
         <p>&copy; 2026 Donel MBIYA. Tous droits réservés.</p>
-        <img src="IMAGE/github.jpg" alt="github" width="30">
-        <img src="IMAGE/linkedin.jpg" alt="linkedin" width="30">
-        <img src="IMAGE/twitter.jpg" alt="twitter" width="30">
+        </div>
+        <div>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </footer>
     
 </body>

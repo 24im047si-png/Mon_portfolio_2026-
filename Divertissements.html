@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -27,13 +28,61 @@
 
     </header>
     <main>
-        <h1>voici mes divertissement</h1>
-    </main>
+    <section class="divertissement-wrapper">
+        <header class="main-header">
+            <h1>Espace Détente</h1>
+            <p>Passions sportives, curiosité numérique et loisirs.</p>
+        </header>
+
+        <div class="grid-layout">
+            <article class="ent-card">
+                <div class="card-bg sport-bg"></div>
+                <div class="card-content">
+                    <span class="category">Analyse Sportive</span>
+                    <h3>Football & Tactiques</h3>
+                    <p>Passionné par les performances du FC Barcelone et l'analyse des statistiques de match. J'aime décrypter les probabilités et les stratégies sur le terrain.</p>
+                </div>
+            </article>
+
+            <article class="ent-card">
+                <div class="card-bg tech-bg"></div>
+                <div class="card-content">
+                    <span class="category">Technologie</span>
+                    <h3>Gaming & Hardware</h3>
+                    <p>Exploration des performances matérielles et immersion dans les jeux vidéo. Toujours curieux de l'optimisation des GPU et de la fluidité visuelle.</p>
+                </div>
+            </article>
+
+            <article class="ent-card">
+                <div class="card-bg media-bg"></div>
+                <div class="card-content">
+                    <span class="category">Médias Numériques</span>
+                    <h3>Veille & Streaming</h3>
+                    <p>Consommation de contenus tech sur YouTube et suivi des dernières tendances du web pour nourrir ma créativité en design.</p>
+                </div>
+            </article>
+
+            <article class="ent-card">
+                <div class="card-bg design-bg"></div>
+                <div class="card-content">
+                    <span class="category">Créativité</span>
+                    <h3>Interface & Design</h3>
+                    <p>Même durant mes loisirs, j'apprécie l'expérimentation visuelle sur Figma et l'étude des interfaces utilisateur innovantes.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+  
     <footer>
+        <div>
         <p>&copy; 2026 Donel MBIYA. Tous droits réservés.</p>
-        <img src="IMAGE/github.jpg" alt="github" width="30">
-        <img src="IMAGE/linkedin.jpg" alt="linkedin" width="30">
-        <img src="IMAGE/twitter.jpg" alt="twitter" width="30">
+        </div>
+        <div>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </footer>
     
 </body>

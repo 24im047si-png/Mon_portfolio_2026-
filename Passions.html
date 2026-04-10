@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -27,13 +28,45 @@
 
     </header>
     <main>
-        <h1>voici mes passions</h1>
-    </main>
+    <section class="passions-container">
+        <h2 class="section-title">Mes Passions</h2>
+        
+        <div class="passions-grid">
+            <article class="card">
+                <div class="card-icon">💻</div>
+                <h3>Design & Tech</h3>
+                <p>Passionné par la création d'interfaces intuitives sur Figma et l'exploration des dernières architectures informatiques.</p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">⚽</div>
+                <h3>Football</h3>
+                <p>Fervent supporter du FC Barcelone. J'aime analyser les tactiques de jeu et l'adrénaline des grands matchs.</p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">📊</div>
+                <h3>Bases de Données</h3>
+                <p>L'art d'organiser l'information. J'apprécie particulièrement la structuration SQL et l'optimisation des systèmes.</p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🛠️</div>
+                <h3>Maintenance PC</h3>
+                <p>Le plaisir de comprendre comment chaque composant fonctionne, du diagnostic matériel à l'optimisation des performances.</p>
+            </article>
+        </div>
+    </section>
+</main>
     <footer>
+        <div>
         <p>&copy; 2026 Donel MBIYA. Tous droits réservés.</p>
-        <img src="IMAGE/github.jpg" alt="github" width="30">
-        <img src="IMAGE/linkedin.jpg" alt="linkedin" width="30">
-        <img src="IMAGE/twitter.jpg" alt="twitter" width="30">
+        </div>
+        <div>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </footer>
     
 </body>
